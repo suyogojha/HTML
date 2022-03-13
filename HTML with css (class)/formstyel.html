@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style>
+		input[type="text"], select{
+			width: 30%;
+			padding: 14px 22px;
+			margin: 10px 0px;
+			display: inline-block;
+			border: 2px solid #18E66BFF;
+			border-radius: 10px;
+		}
+		input[type="sumbit"]{
+			width: 100%;
+			background-color: green;
+			border: none;
+			color: white;
+			padding: 14px 22px;
+			border-radius: 10px;
+			cursor: pointer;
+			text-align: center;
+			margin: 10px 0px;
+			font-size: 22px; 
+		}
+		input[type="sumbit"]:hover{
+			color: red;
+			background-color: yellow;
+		}
+		.wrapper{
+			background-color: #C9C9C9FF;
+			padding: 25px;
+			border-radius: 5px;
+			width: 30%;
+			box-sizing: border-box;
+		}
+	</style>
+
+</head>
+<body>
+		<h2>form</h2>
+		<div class="wrapper">
+		<form action="" method="get">
+			<div class="name">
+			<label for="fname">First Name</label>
+			<input type="text" name="First_name" id="fname" placeholder="Name">
+			</div>
+			<div class="last">
+			<label for="lname">last Name</label>
+			<input type="text" name="Last_name" id="lname" placeholder="LName">
+			</div>
+
+			<div class="country">
+				<label for="crty">Country</label>
+				<select name="country" id="ctry">
+					<option value="----">----</option>
+					<option value="Nepal">Nepal</option>
+					<option value="india">india</option>
+					<option value="japan">japan</option>
+					<option value="china">china</option>
+					<option value="france">france</option>
+				</select><br>
+				<input type="sumbit" value="save">
+			</div>
+		</form>
+		</div>
+</body>
+</html>

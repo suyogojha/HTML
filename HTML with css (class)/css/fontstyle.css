@@ -1,0 +1,19 @@
+.one{
+	font-style: italic;
+}
+
+
+.two{
+	font-style: bold;
+	font-weight: 30px;
+}
+
+.three{
+ font-variant: small-caps;
+}
+
+.four{
+	font-variant: normal;
+	font-size: 50px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+		<style>		
+		input[type=Submit]:hover {
+		background-color:red;
+		color: white;
+		}
+		</style>
+ 		<!--action takes that saving data in folder where we have selected
+ 		form submission method are GET or POST
+		get helps to show user sumbbit post in URL
+		POST dosn't show values submit in URL
+		searching in URL is GET and going to page by form is POST
+ 		-->
+ 	<form action="page.php" method="GET">
+ 		<fieldset>
+ 				<legend style="font-size:30px ">Personal Information</legend>
+ 			<!--to create text box
+ 				no space allowed in name
+ 				for show in which level is for
+ 				placeholder = show typed value in deam in box
+ 				value = show text value in default
+ 				checked = helps to select radio button automatically
+ 				reduired = must fill the form
+ 				fieldset helps to give box in whole
+ 				legend helps to give name in box
+ 				max length = helps to type only limited number
+ 			-->
+ 			<label for="Fname">First Name: </label>
+ 			<input type="text" name="First_name" id="Fname" placeholder="Enter your First Name" required="" maxlength="5" autofocus>
+ 			<!--br breaks the line
+				autofocus helps to select the table with mouse curser
+ 			-->
+ 			 			<br> <br>
+ 			<label for="Lname">Last Name</label>
+ 			 <input type="text" name="Last_name" id="LName" placeholder="Enter your last name" required="">
+ 			 <br> <br>
+
+ 			 <!--gender with radio button
+ 			 value means send that value i.e M in saved folder
+ 			 if we use check then one item will check automatically
+ 			 disabled = help to dim the option
+ 			 readonly = helps to readonly no to type in box
+ 			 -->
+ 			 Gender: <br> <br>
+ 			 <input type="radio" name="Gender" id="Male" value="M">
+ 			 <label for="Male">Male</label><br>
+ 			 <input type="radio" name="Gender" id="Female" value="F"> 
+ 			 <label for="Female">Female</label><br>
+ 			 <input type="radio" name="Gender" id="other" value="O"> 
+ 			 <label for="other">Other</label>
+ 			 <br><br>
+
+ 			 Email:
+ 			 <input type="email" name="useremail">
+
+			<br><br>
+
+			URL
+			<input type="url" name="url">
+			<br><br>
+			Telephone:
+			<input type="tel" name="telephone">
+
+			<br><br>
+
+ 			 <label for="Country">Country:</label> <br>
+ 			 <!--option should be in the middle of select
+ 			 option helps to select list form the box
+ 			 selected should be give if you want the tag defualt
+ 			 multiple helps to select all the data
+ 			 -->
+ 			 <select name="Country" id="Country" size="1">
+ 			 	<option>--Select a country--</option><br>
+ 			 	<option value="pakistan">Pakistan</option>
+ 			 	<option value="india">India</option>
+ 			 	<option value="bhutan">Bhutan</option>
+ 			 	<option value="canada">Canada</option>
+ 			 	<option value="australia">Austraia</option>
+ 			 	<option value="denmark">Denmark</option>
+ 			 	<option value="france">France</option>
+ 			 	<option value="usa">usa</option>
+ 			 	<option value="Koria">Koria</option>
+ 			 	<option value="Germany">Germany</option>
+ 			 	<option value="China">China</option>
+ 			 </select>
+ 			 	<!--its hidden and send to server-->
+ 			 	<br><br>
+ 			 	<input type="hidden" name="id" value="34">
+ 			 	<br>
+
+ 			 	<label for="age">Age:</label><br>
+ 			 	<input type="number" name="Age" min="0" max="100" step="2">
+ 			 	<br><br>
+ 			 	<!-- helps to  searching country by first word-->
+ 			 	<label for="Counties">Country</label><br>
+ 			 	<input type="text" list="Countries">
+ 			 <datalist id="Countries">
+ 			 	<option>--Select a country--</option>	<br>
+ 			 	<option value="Pakistan">Pakistan</option>
+ 			 	<option value="India">India</option>
+ 			 	<option value="Bhutan">Bhutan</option>
+ 			 	<option value="Canada">Canada</option>
+ 			 	<option value="Austraia">Austraia</option>
+ 			 	<option value="Denmark">Denmark</option>
+ 			 	<option value="France">France</option>
+ 			 	<option value="koria">Koria</option>
+ 			 	<option value="usa">usa</option>
+ 			 	<option value="Germany">Germany</option>
+ 			 	<option value="China">China</option>
+ 			 	<option value="Thimpu">Thimpu</option>
+ 			 </datalist>
+ 			 	<br>
+ 			 	<!--Id helps to select all the checkbox
+ 			 		checked = tick value automatically
+ 			 	-->
+ 			 	<label for="interest">Interests</label><br>
+ 			 	<input type="Checkbox" name="Dancing" id="Dancing" value="da">
+ 			 	<label for="Dancing">Dancing</label>
+ 			 	<input type="Checkbox" name="Singing" id="Singing" value="si">
+ 			 	<label for="Singing">Singing</label>
+ 			 	<input type="Checkbox" name="Swimming" id="Swimming" value="sw">
+
+ 			 	<label for="Swimming">Swimming</label>
+ 			 	<input type="Checkbox" name="Programming" id="Programming" value="pr" checked>
+
+ 			 	<label for="Programming">Programming</label>
+ 			 	<input type="Checkbox" name="Playing" id="Playing" value="pl">
+ 			 	<label for="Playing">Playing</label>
+
+ 			 	<br><br>
+ 			 	<!--to create password-->
+ 			 	<label for="Password">Password</label><br>
+ 			 	<input type="Password" name="Pass" id="Pass">
+ 			 	<br>
+ 			 	<!--To pick the color-->
+ 			 	<label for="favcolor">favourate color</label><br>
+ 			 	<input type="color" name="favcolor" id="favcolor">
+ 			 	<br>
+ 			 	<!--To create date calander
+					we can create max and min in date
+ 			 	-->
+ 			 	<label for="Date">Date</label><br>
+ 			 	<input type="Date" name="date" id="date">
+ 			 	<br>
+ 			 	 <label for="Datetime-local">Date</label><br>
+ 			 	<input type="Datetime-local" name="Datetime-local" id="Datetime-local">
+ 			 	<br>
+ 			 	<!--To create Email-->
+ 			 	<label for="Email">Email</label><br>
+ 			 	<input type="Email" name="Email" id="Email">
+ 			 	<br>
+ 			 	<!--To create file to select image-->
+ 			 	<label for="File">Photo</label><br>
+ 			 	<input type="File" name="File" id="File">
+ 			 	<br>
+ 			 	<!--To create month-->
+ 			 	<label for="month">Current Month</label><br>
+ 			 	<input type="month" name="month" id="month">
+ 			 	<br>
+ 			 	<!--To create slide button-->
+ 			 	<label for="sal">Salary range</label><br>
+ 			 	<input type="range" name="sal" id="sal" min="10000" max="200000">
+
+
+ 			 <br><br>
+ 			 <!--create message box-->
+ 			 <label for="message">Message</label><br>
+ 			 <textarea name="msg" rows="5" cols="25" placeholder="Enter your message"></textarea><br>
+ 			 <!--save box--> 			 
+ 			 <input type="Submit" value="Save">
+ 			 <!--reset button-->
+ 			 <input type="Reset" value="Reset">
+ 			 <input type="button" value="click me !">
+
+
+ 		</fieldset>
+
+ 		</form>
+</body>
+</html>

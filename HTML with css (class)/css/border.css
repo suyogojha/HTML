@@ -1,0 +1,42 @@
+body{
+	padding: 20px;
+	margin: 10px;
+	border: 5px double red;
+	border-radius: 20px;
+	background-image: linear-gradient(#fbd4f2, #38d9a9, #da77f2, #d0ebff); 
+
+}
+
+.one{
+	padding: 10px;
+	border-style: solid;
+	border-color: yellow;
+
+}
+
+.two{
+	padding: 10px;
+	border-style: dashed;
+	border-color: green;
+
+}
+
+.three{
+	padding: 10px;
+	border-style: dotted;
+}
+
+.four{
+	padding: 10px;
+	border-style: dotted solid dashed double;
+}
+
+
+
+#su{
+	color: red;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 30px;
+}

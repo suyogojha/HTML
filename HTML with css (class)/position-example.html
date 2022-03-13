@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>position</title>
+	<style>
+		img{
+			width: 800px;
+		}
+		.container{
+			position: relative;
+		}
+		.top-left{  
+			position: absolute;
+			top:  10px;
+			left: 10px;
+			color: red;
+			text-transform: uppercase;
+
+		}
+		.top-right{
+			position: absolute;
+			top: 10px;
+			left: 80%;
+			color: red;
+			text-transform: uppercase;
+
+		}
+				.bottom-right{
+			position: absolute;
+			top: 92%;
+			left: 2%;
+			color: yellow;
+			text-transform: uppercase;
+
+		}
+				.bottom-left{
+			position: absolute;
+			top: 92%;
+			left: 80%;
+			color: white;
+			text-transform: uppercase;
+
+		}
+		.middle{
+			position: absolute;
+			top: 40%;
+			left: 30%;
+			color: orange;
+			font-size: 80px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<img src="images/qq.jpg" alt="">
+
+	<div class="top-left">
+		top left text
+	</div>
+		<div class="top-right">
+		top left text
+	</div>
+		<div class="bottom-left">
+		top left text
+	</div>
+		<div class="bottom-right">
+		top left text
+	</div>
+	<div class="middle">
+		Middle
+	</div>
+</div>
+</body>
+</html>

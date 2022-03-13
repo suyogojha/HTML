@@ -1,0 +1,49 @@
+
+
+.no1{
+color: violet;
+font-family: arial;
+text-align: left;
+margin-left: 20px;
+background-image: linear-gradient(blue, yellow);
+text-shadow: 20px green;
+padding: 20px;
+}
+
+.no2{
+	color: red;
+	  text-shadow: 2px 2px;
+	  border-style:  solid ;
+	  border-width: 10px;
+	  border-color: chartreuse;
+	  border-radius: 20px;
+	  margin: 15px 20px 15px 20px; 
+	  padding: 15px;
+	  outline-style: dotted; 
+	  outline-width: 8px;
+	  outline-color: black;
+	  outline-offset: 10px;
+}
+
+.no3{
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  padding: 20px;
+}
+
+
+.no4{
+	padding: 20px;
+	  border: ridge;
+	  border-width: 15px;
+  border-color: greenyellow;
+  outline-style: inherit;
+}
+
+.no5{
+	padding: 20px;
+	border-style: outset;
+	border-color: maroon;
+	outline-style: double;
+	outline-color: magenta;
+	outline-width: 8px;
+}

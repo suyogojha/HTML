@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button onclick="getlovation()">Try it</button>
+	<p id="demo"></p>
+	<script>
+		var x = document.getElementByID("demo");
+		function getlocation(){
+		if(navugator.getlovation)
+		{
+			navugator.getlovation.getcurrentposition(showposition);
+		}
+		else
+		{
+			x.innerHTML = "Geolocation is not supported by this brouser.";
+		}
+	}
+	function showposition(position)
+	{
+		x.innerHTML = "latitude:" + position.coordes.latitude + "<br>longitude:" + position.coordes.longitude; 
+	}
+	</script>
+</body>
+</html>

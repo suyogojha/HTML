@@ -1,0 +1,34 @@
+body{
+	background-color: #c1ffc1;
+	margin: 30px;
+}
+
+
+h1{
+	color: green;
+	background-color: orange;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 50px;
+	word-spacing: 10px;
+	text-shadow: 2px 2px 0.5px yellow;
+}
+
+h2{
+	text-align: center;
+	color: red;
+	background-color: pink;
+}
+
+p{
+ color: blue;
+ text-align: justify;
+ vertical-align: top;
+ text-transform: capitalize;
+ font-size: 20px;
+ text-indent: 90px;
+}
+
+.imge{
+	width: 200px;
+}

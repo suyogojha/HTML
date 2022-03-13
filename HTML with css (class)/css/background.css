@@ -1,0 +1,30 @@
+body{
+	/*adding color in background*/
+
+
+	/*background-color: red;
+	background-color: #96f2d7;	*/
+	background-image: url(../images/qq.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	padding: 20px 20px;
+	border: 4px solid black;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	font-family: arial;
+	font-weight: 2px;
+}
+
+.one{
+	background-color: #fff68f;
+	font-size: 20px;
+}
+.two{
+	color: red;
+	font-style: italic;
+	background-color: #00fa9a;
+}

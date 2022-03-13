@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color : red;
+}
+
+.container{
+	padding: 20px 30px;
+	width: 700px;
+}
+.dotted{
+/*	border-style: dotted;
+	border-width: 10px;
+	border-color: yellow;
+*/
+   border: 5px dotted yellow;
+}
+.dashed{
+	/*border-style: dashed;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	margin-left: 30px;*/
+
+	margin: 100px 30px; 
+}
+.mix{
+	border-style: dotted double solid dashed;
+
+}
+
+
+.para1{
+	border-style: solid;
+	border-width: 10px;
+	border-color: pink;
+}
+
+.auto{
+	width: 500px;
+	margin: auto;
+	border: 1px red;
+	text-align: justify;
+	padding: 
+}
+.name{
+	padding: 100px 10px 50px 30px;
+	border-style: double;
+	border-width: 10px 20px;
+	border-color: red;
+	text-align: justify-all;
+}
+
+.new{
+	border-style: solid;
+	border-color: red;	
+	border-width: 10px;
+	max-width: 800px;
+	
+}
+
+.html{
+	border-style: solid;
+	border width: 2px red;
+	border-radius: 5px;
+	border-color: black;
+	border-width: 8px;
+	font-style: bold;
+	font-size: 30px;
+	padding: 20px;
+	background-color: pink;
+	text-align: center;
+
+}
+.auto{
+	border-style: dotted;
+	border-width: 10px;
+	color: green;
+	border-color: red purple yellow black;
+	text-align: justify-all;
+	padding: 20px;
+	background-color: lightgreen;
+	font-size: 20px;
+	text-decoration: overline;
+
+}
+
+
+.com{
+	font-size: 20px;
+	color: blue;
+	padding: 20px 40px;
+
+}
+
+.csss{
+	border-style: dashed;
+	  width: 900px;
+  border: 55px solid green;
+  padding: 50px;
+  margin: 20px;
+ outline-style: dotted;
+ outline-width: 20px;
+ outline-color: yellow;
+ outline-offset: 5px;
+ text-align: center;
+
+}
+
+.ojha{
+	background-color: red;
+}

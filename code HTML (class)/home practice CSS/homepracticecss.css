@@ -1,0 +1,71 @@
+
+
+
+.sec1{
+color: red;
+padding: 10px;
+text-align: center;
+background-color: pink;
+margin: 20px 20px 30px 10px;
+text-decoration: underline;
+text-shadow: 2px 2px green;
+}
+
+
+
+.sec1:hover{
+	text-decoration: underline;
+	background-color: black;
+}
+
+.sec2{
+color: blue;
+padding: 30px;	
+text-align: justify-all;
+font-family:  Arial, Helvetica, sans-serif;
+}
+
+.sec3:hover{
+	color: green;
+	display: inline-block;
+	padding: 14px 25px;
+}
+
+
+
+.sec3{
+color: red;
+text-align: center;
+font-style: bold;
+}
+
+
+
+
+
+
+.sec4{
+color: blue;
+padding: 30px;	
+text-align: justify-all;
+}
+
+
+
+
+
+.sec5{
+color: red;
+text-align: center;
+}
+
+
+
+
+
+.sec6{
+color: blue;
+padding: 30px;	
+text-align: justify-all;
+	}
+

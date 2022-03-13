@@ -1,0 +1,10 @@
+div{
+	background-color: lightgreen;
+	height: 300px;
+	width: 50%;
+	max-width: 800px;
+	padding: 30px;
+	margin: 50px;
+	border: 40px solid yellow;
+	outline: 20px solid red;
+}
